@@ -1,0 +1,8 @@
+@mixin flex_column {
+    flex-direction: column;
+    -webkit-flex-direction: column;
+}
+@mixin flex_row {
+    flex-direction: row;
+    -webkit-flex-direction: row;
+}

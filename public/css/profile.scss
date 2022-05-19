@@ -1,0 +1,360 @@
+.profile-img {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: -1px 6px 11px #0000004d;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.cr-cyan {
+    p,
+    span {
+        margin-bottom: 0;
+        color: #008CCC;
+        font-weight: 600;
+        vertical-align: middle;
+    }
+}
+.profile-title {
+    font-size: 60px;
+    margin-top: -15px;
+}
+.btn-large {
+    padding: 8px 50px;
+    font-size: 13px;
+}
+.table-header {
+    margin-bottom: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    font-weight: 600;
+    padding-left: 0;
+    color: darken(#008ccc, 10);
+    font-weight: 500;
+    li {
+        width: 21.68%;
+        text-align: center;
+        a {
+            float: right;
+            margin-right: 5px;
+            margin-left: 5px;
+            &.text-info {
+                float: none;
+                margin: 0;
+                img {
+                    display: block;
+                    margin: auto;
+                    padding-left: 30px;
+                    max-width: 60px !important;
+                }
+            }
+        }
+        &:first-child {
+            width: auto;
+        }
+        &:last-child {
+            width: auto;
+            margin-right: -20px;
+        }
+    }
+}
+#debts_modal {
+    li {
+        width: auto;
+        text-align: center;
+        &:last-child {
+            margin-right: -20px;
+        }
+    }
+}
+.table-body {
+    @extend .table-header;
+    border: 1.5px solid #008ccc;
+    color: #008ccc;
+    font-weight: 400;
+}
+.table-rounded {
+    tr {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border: 1px solid #008dcc;
+    }
+}
+.left-scroll {
+    height: 318px;
+}
+.existing_agent {
+    .table-body li,
+    .table-header li {
+        width: 20%;
+    }
+    .table-header li:last-child {
+        text-align: right;
+        padding-right: 30px;
+    }
+    .table-body li:last-child {
+        padding-right: 20px;
+    }
+}
+#debts_modal li {
+    width: 12.5%;
+    text-align: center;
+    img {
+        max-width: 30px;
+    }
+}
+#admin_checklist_form {
+    cursor: pointer;
+}
+#view_user_debt_from_list_div .table-body,
+#view_user_debt_from_list_div .table-header {
+    justify-content: flex-start;
+}
+#view_user_debt_from_list_div .table-body li {
+    padding: 10px 0;
+}
+#view_user_debt_from_list_div .table-body li,
+#view_user_debt_from_list_div .table-body li:first-child,
+#view_user_debt_from_list_div .table-body li:last-child,
+#view_user_debt_from_list_div .table-header li,
+#view_user_debt_from_list_div .table-header li:first-child,
+#view_user_debt_from_list_div .table-header li:last-child {
+    width: calc(100% / 6);
+    margin: 0;
+    // white-space: nowrap;
+}
+.d-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+.d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center {
+    border-right: 1px solid #999;
+    padding: 8px 4px;
+    font-size: 14px;
+    white-space: nowrap;
+    min-width: 70px;
+    &:last-child {
+        border-right: 1px solid transparent;
+        width: 260px;
+        padding: 10px 2px;
+        margin-left: 2px;
+    }
+    select{
+        font-size: 13px;
+        margin: 0px 2px;
+    }
+}
+.small-select{
+    .d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center{
+        &:last-child {
+            border-right: 1px solid transparent;
+            width: 200px;
+            padding: 10px 2px;
+            margin-left: 2px;
+        }
+    }
+}
+
+
+
+.width-auto .d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center {
+    padding: 0px;
+    font-size: 12px;
+    white-space: normal;
+    min-width: -webkit-fill-available;
+}
+.debts-profile-change-status .d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center {
+    padding: 4px 0;
+    font-size: 13px;
+
+}
+.existing_agent-admin {
+    .table-body li,
+    .table-header li {
+        width: 20%;
+        margin-left: auto;
+        &:nth-child(2) {
+            min-width: 30%;
+        }
+    }
+    .table-header li {
+        &:nth-child(2) {
+            padding-left: 0;
+        }
+    }
+    .table-header li:last-child {
+        text-align: right;
+        padding-right: 30px;
+        width: auto;
+    }
+    .table-body li:nth-child(5) {
+        padding-right: 0;
+        width: auto !important;
+        margin-left: auto;
+    }
+    .table-body {
+        border-radius: 20px;
+    }
+    .username {
+        font-size: 40px;
+    }
+    .dot {
+        cursor: pointer;
+    }
+}
+.pl-40 {
+    padding-left: 40px;
+}
+.debt-profile-image {
+    border-radius: 100px;
+}
+.d-grid.fr-7 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    h1 {
+        font-size: 16px;
+    }
+    .has-padding {
+        padding: 8px 4px;
+        margin-right: 20px;
+    }
+    .d-flex {
+        .card {
+            border-radius: 0;
+            box-shadow: none;
+            border: none;
+            border-bottom: 2px solid #ddd;
+            min-height: 130px;
+            width: 100%;
+            margin-right: 20px;
+            .date {
+                position: absolute;
+                right: 20px;
+                top: 10px;
+                color: #555;
+            }
+        }
+    }
+}
+.calendar-dates {
+    &.date-dissbled {
+        .date {
+            opacity: 0.5;
+        }
+    }
+}
+.calendar-tabs {
+    border-bottom: 0;
+    margin-bottom: 20px;
+    h1 {
+        margin-bottom: 0;
+        line-height: 1.5;
+    }
+    .nav-item {
+        &.nav-link {
+            border: none;
+            background-color: transparent;
+            font-size: 30px;
+            padding: 0 1rem;
+            color: #555;
+            font-weight: 900;
+        }
+        &.active {
+            color: #01477E;
+            border-bottom: 2px solid;
+        }
+    }
+}
+.appontment-lists {
+    margin-top: 15px;
+    a {
+        background-color: #D9E3EB;
+        font-size: 14px;
+        padding: 2px 20px;
+        margin: 0 -20px;
+        display: block;
+        text-align: center;
+        margin-bottom: 5px;
+        &:focus,
+        &:hover {
+            background-color: #08497F;
+            color: #fff;
+        }
+    }
+}
+.pl-80 {
+    padding-left: 80px;
+}
+.profile-img {
+    img {
+        width: 100%;
+    }
+}
+.debts-solution-profile {
+    .username {
+        font-size: 30px;
+        margin-bottom: 10px;
+        margin-top: 30px;
+    }
+    .hour {
+        margin: 30px 0 40px;
+    }
+    .pl-40 {
+        padding-left: 0;
+    }
+    .d-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+        padding-right: 40px;
+    }
+    .dropdown-menu {
+        border-radius: 10px;
+        left: -45px !important;
+        box-shadow: 0 1px 4px #828282ab;
+        width: 110px;
+        min-width: 110px;
+        background-color: #F4F5F5;
+    }
+    .dropdown-item {
+        cursor: pointer;
+        text-align: center;
+        color: #008dcc;
+        font-size: 14px;
+        font-weight: 100;
+        
+    }
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        color: #0086c2;
+        text-decoration: none;
+        background-color: #D6D6D6;
+    }
+    .d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center:last-child{
+        border-right: 1px solid #999;
+    }
+}
+.dot-dark{
+    background-color: #555;
+}
+.slot-radio label::before,
+.slot-radio label::after{
+    display: none;
+}
+
+@media only screen  and (min-width:1200px) and (max-width:1500px){
+    .profile-title {
+        font-size: 22px !important;
+        margin-top: 0px;
+    }
+}

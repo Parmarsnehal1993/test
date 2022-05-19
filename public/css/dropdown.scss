@@ -1,0 +1,85 @@
+#solution_popup,
+#account_popup,
+#Checklist,
+#dropdown_modal{
+    .date-input{
+        button{
+            width: calc(100% - 20px);
+            right: 10px;
+            text-align: right;
+            top: 0px;
+            height: 100%;
+        }
+    }
+}   
+.dropdown-toggle::after{
+    display: none;
+}
+.date-input{
+    .dropdown-menu{
+        overflow: hidden;
+        background-color: #737373;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 0px 0px #00000021;
+        min-width: 300px;
+        right: 30px;
+        left: auto !important;
+        .dropdown-item{
+            padding: 0px 0px;
+            a{
+                padding: 0px 20px;
+                color: #C9C9C9;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                &:hover{
+                    background: #C9C9C9;
+                    color: #fff;
+                }
+            }
+        }
+    }
+   
+}
+.assets-data{
+    .table-body{
+        li{
+            position: relative;
+        }
+    }
+    .dropdown-item:focus, .dropdown-item:hover{
+        background-color: #737373;
+    }
+    .dropdown-menu{
+        overflow: hidden;
+        background-color: #737373;
+        border: none;
+        border-radius: 25px;
+        box-shadow: 0px 0px 0px #00000021;
+        min-width: 200px;
+        right: auto;
+        left: 0px !important;
+        top: 10px !important;
+        li.dropdown-item{
+            width: 100%;
+            padding: 0px !important;
+            a{
+                padding: 0px 20px;
+                float: none;
+                margin: 0px;
+                color: #C9C9C9;
+                text-decoration: none;
+                display: block;
+                text-align: center;
+                &:hover{
+                    background: #C9C9C9;
+                    color: #fff;
+                }
+            }
+        }
+    }
+}
+.form-control:disabled, .form-control[readonly]{
+    background-color: #fff;
+}

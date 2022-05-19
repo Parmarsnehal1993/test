@@ -1,0 +1,64 @@
+@import '_variable';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css');
+@import '_fonts';
+@import '_mixins';
+@import '_helper';
+@import '_sidebar';
+@import '_main_content';
+@import 'profile';
+@import 'search';
+@import 'completed_case';
+@import 'dmp_advisor';
+@import 'login';
+@import 'popup';
+@import 'dropdown';
+@import 'calendar';
+@import 'admin_dashboard';
+@import 'slot_calendar';
+#full_report.search-table .buttons .btn-bordered-primary, .search-table .buttons .case-btn button.btn{
+    margin: 5px;
+    min-width: 110px;
+}
+#full_report .buttons{
+    width: 500px;
+    flex-wrap: wrap;
+}
+.manager-dashboard{
+    .card{
+        min-height: 210px !important;
+        &.card-bordered{
+            border: 1px solid #777;
+            border-radius: 40px;
+        }
+        &.card-radius{
+            border-radius: 80px;
+            padding: 30px 40px;
+        }
+    }
+    .card-title{
+        &.text-muted{
+            font-family: avenir_heavy;
+        }
+    }
+}
+@import 'responsive';
+body{
+    padding-right: 0px !important;
+}
+#logoff_modal .modal-dialog .buttons .btn{
+    margin: 0px 5px;
+}
+a{
+    cursor: pointer !important;
+}
+@media (max-width:767px){
+    .logo + .float-right{
+        width: 100%;
+        margin-right: -10px;
+    }
+    .logo + .float-right a{
+        float: right;
+        position: relative;
+        z-index:99999;
+    }    
+}

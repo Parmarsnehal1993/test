@@ -1,0 +1,47 @@
+@font-face {
+    font-family: $font_avenir_heavy;
+    src: url("fonts/AvenirLTStd-Heavy.otf");
+}
+@font-face {
+    font-family: $font_avenir_light;
+    src: url("fonts/AvenirLTStd-Light.otf");
+}
+@font-face {
+    font-family: $font_avenir_medium;
+    src: url("fonts/AvenirLTStd-Medium.otf");
+}
+@font-face {
+    font-family: $bebas;
+    src: url("fonts/BebasNeue.otf");
+}
+@font-face {
+    font-family: $bebas_light;
+    src: url("fonts/BebasNeueLight.otf");
+}
+.font-babas {
+    font-family: $bebas;
+}
+.result {
+    margin-top: -40px;
+    text-align: right;
+    h1,
+    h2 {
+        margin: 0;
+        font-family: $bebas;
+    }
+    h1 {
+        font-size: 40px;
+    }
+    &.pass {
+        h1,
+        h2 {
+            color: $success_color;
+        }
+    }
+    &.fail {
+        h1,
+        h2 {
+            color: $danger_color;
+        }
+    }
+}

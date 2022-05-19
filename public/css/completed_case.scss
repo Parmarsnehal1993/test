@@ -1,0 +1,21 @@
+.counter{
+	width: 120px;
+	height: 120px;
+	line-height: 120px;
+	border: 2px solid #008dcc;
+	text-align: center;
+	font-size: 30px;
+	color: #008dcc;
+	font-family: $font_avenir_heavy;
+	border-radius: 50%;
+	-webkit-border-radius: 50%;
+	-moz-border-radius: 50%;
+	-ms-border-radius: 50%;
+	-o-border-radius: 50%;
+	margin: auto;
+	margin-top: 10px;
+	h2{
+		line-height: 120px;
+		top: 0 !important;
+	}
+}

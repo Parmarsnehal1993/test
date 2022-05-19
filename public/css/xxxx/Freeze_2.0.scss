@@ -1,0 +1,25 @@
+@import '_variable';
+@import url('https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.8.0/Chart.min.css');
+@import '_fonts';
+@import '_mixins';
+@import '_helper';
+@import '_sidebar';
+@import '_main_content';
+@import 'profile';
+@import 'search';
+@import 'completed_case';
+@import 'dmp_advisor';
+@import 'login';
+@import 'popup';
+@import 'dropdown';
+@import 'calendar';
+@import 'admin_dashboard';
+@import 'slot_calendar';
+@import 'responsive';
+body{
+    padding-right: 0px !important;
+}
+#logoff_modal .modal-dialog .buttons .btn{
+    margin: 0px 5px;
+}
+

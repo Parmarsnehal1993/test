@@ -1,0 +1,1121 @@
+.side_menu_expend .expend-sidebar-link.close-sidebar {
+    position: relative;
+    bottom: 0;
+    transform: rotate(-180deg);
+    width: 100%;
+    right: calc(100% - 30px);
+    top: 20px;
+}
+
+#logoff_modal .modal-dialog,
+.logoff_modal .modal-dialog {
+    max-width: 37%;
+    height: 0;
+    min-height: 20vh !important;
+    transform: translate(0%, -25vh) !important;
+}
+.por {
+    position: relative;
+    right: 5px;
+}
+.logout {
+    position: fixed;
+    top: 60px;
+}
+.custom-control-inline {
+    align-items: center;
+    margin-right: 0;
+}
+#alert_modal .modal-footer .buttons .btn,
+.alert_modal .modal-footer .buttons .btn {
+    padding: 10px 70px;
+    margin: 0;
+}
+.admin-dashboard .card.primary-radius {
+    min-height: 790px;
+}
+// .logout {
+//     top: 20px;
+// }
+@media (min-width:1200px) and (max-width:1600px) {
+
+    .logout {
+        top: 45px;
+    }
+    .por {
+        right: 5px;
+    }
+}
+#entercase,
+.entercase {
+    .modal-dialog {
+        min-height: 25vh !important;
+        .modal-content {
+            padding-bottom: 20px;
+            width: 50%;
+            margin: auto;
+            max-width: 50%;
+            .buttons {
+                display: flex !important;
+                .btn {
+                    padding: 10px 60px;
+                }
+            }
+        }
+    }
+}
+#appointment_model,
+#calender_modal,
+.appointment_model,
+.calender_modal {
+    .modal-dialog {
+        max-width: 60%;
+        left: 0;
+        height: 82vh;
+        top: 45vh;
+        min-height: auto !important;
+        .modal-content {
+            height: 100%;
+            min-height: 100%;
+        }
+    }
+}
+form.has-no-margin {
+    .buttons {
+        input[type="submit"],
+        .btn:first-child {
+            margin-right: 10px !important;
+        }
+    }
+}
+@media (min-width:1800px) {
+    #review .text-primary span,
+    .review .text-primary span {
+        min-height: auto;
+    }
+    #Sent_To_IVA_Modal,
+    .Sent_To_IVA_Modal {
+        .modal-dialog {
+            min-height: 45vh !important;
+        }
+    }
+
+    #appointment_model,
+    #calender_modal,
+    .appointment_model,
+    .calender_modal {
+        .modal-dialog {
+            max-width: 40%;
+            left: 0;
+            height: 38%;
+            min-height: auto !important;
+            .modal-content {
+                height: 100%;
+                min-height: 100%;
+            }
+        }
+    }
+    .expend-sidebar-link {
+        bottom: 40px;
+    }
+    #entercase,
+    .entercase {
+        .modal-dialog {
+            min-height: 25vh !important;
+            .modal-content {
+                height: max-content;
+                .buttons {
+                    display: flex !important;
+                    .btn {
+                        padding: 20px 90px;
+                        border-radius: 60px;
+                    }
+                }
+            }
+        }
+    }
+    .side_menu_expend .expend-sidebar-link.close-sidebar {
+        top: auto;
+        bottom: -240px;
+    }
+    #logoff_modal .modal-dialog,
+    .logoff_modal .modal-dialog {
+        max-width: 20%;
+    }
+    .sidebar_open .side_menu_expend .expend-sidebar-link.close-sidebar {
+        left: auto;
+        right: calc(100% - 100px);
+    }
+    .user-greeting h1,
+    h1 {
+        font-size: 60px;
+    }
+    .counter {
+        font-size: 60px;
+        width: 240px;
+        height: 240px;
+        line-height: 240px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .user-greeting h2,
+    h2 {
+        font-size: 40px;
+    }
+    h3 {
+        font-size: 26px;
+    }
+    // .main-content{
+    //     padding-left: 220px;
+    // }
+    .modal .modal-dialog {
+        height: auto;
+        min-height: 60vh !important;
+    }
+    .reminder_calender_modal .modal-dialog,
+    #reminder_calender_modal .modal-dialog,
+    #appointment_model .modal-dialog,
+    .appointment_model .modal-dialog{
+        height: auto;
+        min-height: 65vh !important;
+        max-width: 50%;
+        .modal-body{
+            flex: 0 0 0 !important;
+        }
+        .modal-footer{
+            margin-bottom: 0px !important;
+        }
+    }
+    #Sent_To_DMP_Modal,
+    #Sent_To_Ip_Modal,
+    .Sent_To_DMP_Modal,
+    .Sent_To_Ip_Modal {
+        .modal-dialog {
+            height: auto;
+            min-height: 90vh !important;
+        }
+    }
+    #slot_book_for_iva_advisor .modal-dialog{
+        min-height: 75vh !important;
+    }
+    #Sent_To_DMP_Modal .modal-dialog{
+        min-height: 30vh !important;
+    }
+    #alert_modal .modal-dialog,
+    .alert_modal .modal-dialog {
+        max-width: 100%;
+        width: 100% !important;
+        left: 0;
+    }
+    #alert_modal .modal-content,
+    .alert_modal .modal-content {
+        position: static;
+        max-width: 25% !important;
+        margin: auto !important;
+        .modal-title {
+            font-family: $font_avenir_light;
+        }
+        .buttons {
+            padding-bottom: 30px;
+            .btn {
+                padding: 20px 90px;
+                border-radius: 70px;
+                font-size: 18px;
+            }
+        }
+    }
+    .footer-link .nav-link {
+        font-size: 16px;
+    }
+    // .user-greeting {
+    //     margin-top: 0px;
+    //     display: flex;
+    //     flex-wrap: wrap;
+    //     position: relative;
+    //     top: 20vh;
+    // }
+    .side_menu_expend {
+        align-items: flex-start;
+        .navbar-nav {
+            width: calc(100% - 60px);
+        }
+    }
+    .side_menu_expend .nav-link {
+        font-size: 16px;
+        padding: 25px 0 25px 20px !important;
+        margin-top: 60px;
+        &[data-target=".logoff_modal"] {
+            margin-top: 100px;
+        }
+    }
+    #countdown2 {
+        font-size: 60px;
+    }
+    .admin-dashboard .card {
+        padding: 20px 60px 20px 30px;
+    }
+    .navbar.d-table h1 {
+        transform: rotate(-90deg) translate(-70vh, 10px);
+        left: -48.5%;
+    }
+    .navbar.d-table h1.transform {
+        transform: rotate(-90deg) translate(-25vh, 10px);
+    }
+    .modal .modal-dialog {
+        width: 75% !important;
+        max-width: 75%;
+        left: 0;
+    }
+    .navbar.fixed-left {
+        width: 130px;
+        overflow: hidden;
+    }
+    .side_menu_expend.open-menu {
+        width: 350px;
+    }
+    .main-content {
+        padding-left: 200px;
+    }
+    .navbar .navbar-nav .nav-link img,
+    .navbar img {
+        width: 45px;
+    }
+    #entercase,
+    .entercase {
+        .modal-dialog {
+            .modal-title {
+                font-family: $font_avenir_light;
+            }
+            min-height: 25vh !important;
+            .modal-content {
+                padding-bottom: 20px;
+                width: 38%;
+                margin: auto;
+                max-width: 38%;
+                .buttons {
+                    display: flex !important;
+                    padding-bottom: 20px;
+                    .btn {
+                        padding: 20px 120px;
+                        font-size: 18px;
+                    }
+                }
+            }
+        }
+    }
+    #alert_modal .modal-footer .buttons .btn,
+    .alert_modal .modal-footer .buttons .btn {
+        padding: 20px 110px;
+        margin: 0;
+        border-radius: 60px;
+        font-size: 18px;
+    }
+    #alert_modal .modal-footer .buttons,
+    .alert_modal .modal-footer .buttons {
+        padding-bottom: 30px;
+    }
+    .custom-control-inline {
+        align-items: center;
+        margin-right: 0;
+        min-width: 60px;
+    }
+}
+.custom-control-inline {
+    align-items: center;
+    margin-right: 0;
+    min-width: 65px;
+}
+@media (width:1366px) {
+    .modal-title {
+        font-size: 28px;
+    }
+    .td-plr-0 td .custom-control-inline, .td-plr-0 .search-table th .custom-control-inline, .search-table .td-plr-0 th .custom-control-inline {
+        min-width: 60px;
+        font-size: 13px;
+    }
+    #entercase,
+    .entercase {
+        .card {
+            min-height: 222px;
+        }
+    }
+    #appointment_model,
+    #calender_modal,
+    .appointment_model,
+    .calender_modal {
+        .modal-dialog {
+            height: 77vh;
+        }
+    }
+}
+@media (max-width:767px) {
+    body {
+        font-size: 12px;
+    }
+    .wrapper {
+        overflow: auto;
+    }
+    // .navbar-nav{
+    //     display: none;
+    // }
+    .login-bg form {
+        margin: 0;
+        position: relative;
+        top: 75%;
+        right: 0;
+        max-width: 100%;
+        transform: translate(-0%,-50%);
+        left: 0;
+    }
+    .main-content {
+        padding-left: 80px;
+        padding-right: 20px;
+    }
+    .navbar.fixed-left {
+        z-index: 9999;
+        width: 60px;
+    }
+    .navbar .navbar-nav .nav-link img {
+        width: 20px !important;
+        right: 0 !important;
+    }
+    .side_menu_expend.open-menu {
+        width: 50%;
+    }
+    .logo {
+        img {
+            max-width: 70px;
+        }
+    }
+    .mt--70 {
+        margin-top: -30px;
+    }
+    h3 {
+        font-size: 10px;
+    }
+    h1 {
+        font-size: 12px;
+    }
+    .modal .modal-header {
+        padding: 0;
+    }
+    .modal .modal-body {
+        padding: 1em 0;
+    }
+    .modal-title {
+        font-size: 22px;
+    }
+    .admin-dashboard .card-section .col-xl-6 .card {
+        min-height: 40px !important;
+    }
+    .admin-dashboard .card.primary-radius {
+        min-height: auto;
+    }
+    .admin-dashboard .card.primary-radius {
+        margin-left: -15px;
+        margin-right: 15px;
+    }
+    .admin-dashboard .card {
+        padding: 0 10px;
+    }
+    .admin-dashboard .card.primary-radius {
+        padding: 20px;
+    }
+    .admin-dashboard .card.primary-radius .search-table th,
+    .admin-dashboard .card.primary-radius td,
+    .search-table .admin-dashboard .card.primary-radius th {
+        padding: 5px 0 !important;
+        width: 50%;
+    }
+    .mt--100 {
+        margin-top: -25px;
+    }
+    .navbar.d-table h1 {
+        transform: rotate(-90deg) translate(-50vh, 0px);
+        left: -43vw;
+    }
+    .mt--80 {
+        margin-top: -25px;
+    }
+    .nav-list .item {
+        padding: 0 !important;
+        margin-bottom: 10px;
+    }
+    .d-xs-block {
+        display: block !important;
+    }
+    .d-inline-block.mr-2 {
+        width: 50%;
+        float: left;
+        margin-right: 0 !important;
+        h5 {
+            font-size: 12px;
+        }
+    }
+    .card {
+        min-height: auto;
+        max-width: calc(100vw - 90px);
+    }
+    .ml--30 {
+        margin: 0 -5px;
+    }
+    .card-title {
+        font-size: 15px !important;
+    }
+    .card-body h1,
+    .total {
+        font-size: 30px !important;
+    }
+    .card .col-6 .card-body h1.line-height-auto.text-center {
+        margin-top: -20px;
+    }
+    #alert_modal .modal-content,
+    .alert_modal .modal-content {
+        position: static;
+        max-width: 100% !important;
+        margin: auto !important;
+    }
+    #alert_modal .modal-footer .buttons .btn,
+    .alert_modal .modal-footer .buttons .btn {
+        padding: 5px 30px;
+        margin: 0 0 20px;
+    }
+    #alert_modal .modal-footer .buttons,
+    .alert_modal .modal-footer .buttons {
+        justify-content: space-between;
+        width: 100%;
+        flex-wrap: wrap;
+    }
+    .buttons {
+        flex-wrap: wrap;
+    }
+    .footer-link {
+        display: block;
+        padding: 0 10px;
+        li {
+            a {
+                border: none !important;
+            }
+        }
+    }
+    .modal-content {
+        left: 30px;
+        position: relative;
+        max-width: calc(100% - 70px);
+        margin: auto;
+        top: 0;
+        height: 50vh;
+    }
+    .modal .modal-dialog {
+        height: auto;
+    }
+    .modal .modal-dialog {
+        max-width: 100%;
+        width: 100% !important;
+    }
+    .modal.show .modal-dialog {
+        overflow-y: auto;
+        height: 100vh;
+    }
+    #alert_modal,
+    .alert_modal {
+        .modal-content {
+            height: auto;
+        }
+    }
+    #Checklist,
+    .Checklist {
+        .modal-body {
+            .col-md-6 {
+                border-left: none !important;
+                margin-left: 0 !important;
+                padding-left: 0 !important;
+            }
+            td,
+            th {
+                padding: 5px 0;
+                font-size: 12px;
+            }
+            .xs-100 {
+                width: 100%;
+            }
+        }
+    }
+    #income_modal,
+    #outgoing,
+    .income_modal,
+    .outgoing {
+        .table-body li,
+        .table-header li {
+            width: auto;
+            span {
+                margin-top: 8px;
+            }
+        }
+    }
+    #AuditChecklist,
+    .AuditChecklist {
+        .col-6 {
+            flex: 0 0 100%;
+            max-width: 100%;
+            margin-bottom: 5px;
+        }
+        table {
+            td {
+                padding: 0;
+                width: 100%;
+                display: block;
+                margin-bottom: 5px;
+                font-size: 12px;
+            }
+        }
+        h4,
+        h5 {
+            font-size: 14px;
+        }
+    }
+    .theme-overflow {
+        height: auto !important;
+    }
+    .card-section > .row > .col-xl-7 {
+        padding: 0;
+        .ml--30 {
+            .col-6 {
+                padding: 0 5px;
+            }
+        }
+    }
+    #personal_detail_model,
+    .personal_detail_model {
+        .form-group {
+            float: left;
+            width: 50%;
+            padding: 0 5px;
+            input {
+                font-size: 10px;
+            }
+        }
+        .col-md-9 {
+            padding: 0;
+        }
+        .modal-header {
+            padding: 0;
+        }
+        .modal-body {
+            padding: 0;
+        }
+    }
+    .footer-link li.nav-item {
+        float: left;
+        width: 50%;
+    }
+    .buttons.mt-4 {
+        .btn {
+            width: 100%;
+            margin-bottom: 10px;
+            font-size: 12px;
+        }
+    }
+    .single-note::after {
+        width: 30%;
+        min-width: auto;
+    }
+    .footer-link .nav-link {
+        margin-bottom: 5px;
+        text-transform: uppercase;
+    }
+    p {
+        font-size: 12px !important;
+    }
+    .dataTables_wrapper .dataTables_paginate .paginate_button {
+        padding: 20px 15px !important;
+        height: auto !important;
+        min-width: auto !important;
+        width: auto !important;
+        line-height: 0 !important;
+    }
+    .existing_agent .table-body li,
+    .existing_agent .table-header li {
+        width: 80px;
+        padding-left: 10px;
+    }
+    .existing_agent .table-body,
+    .existing_agent .table-header {
+        justify-content: space-between;
+        width: 100vw;
+    }
+    .reports-cards {
+        .d-inline-block.mr-2 {
+            width: 100%;
+        }
+    }
+    .reports-cards .card h6 {
+        font-size: 12px;
+    }
+    #logoff_modal .modal-dialog,
+    .logoff_modal .modal-dialog {
+        max-width: calc(100% - 30px);
+        .modal-body {
+            flex: 0;
+        }
+        .modal-content {
+            height: auto;
+            left: 0;
+            width: 100%;
+        }
+    }
+    #logoff_modal .modal-dialog .buttons .btn,
+    .logoff_modal .modal-dialog .buttons .btn {
+        padding: 8px 18px !important;
+        margin-bottom: 10px !important;
+    }
+}
+.no-underline {
+    .fa-file-pdf {
+        width: 30px;
+        height: 30px;
+        border: 1px solid;
+        border-radius: 20px;
+        line-height: 30px;
+        margin-bottom: 10px;
+    }
+}
+.table.search-table {
+    th {
+        font-size: 18px;
+        font-family: "avenir_heavy";
+        color: #004e8a;
+        width: auto;
+        text-align: left;
+    }
+}
+@media (min-width:1200px) and (max-width:1920px) {
+    .dmp-advisor .search-table td,
+    .search-table td,
+    .search-table th,
+    .search-table th {
+        padding: 15px 10px;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .manager-dashboard .card-title {
+        font-size: 17px;
+    }
+}
+@media (min-width:1200px) and (max-width:1540px) {
+    .dmp-advisor .search-table td,
+    .search-table td,
+    .search-table th,
+    .search-table th {
+        padding: 15px 10px;
+    }
+    .card-title {
+        font-size: 22px;
+    }
+    .manager-dashboard .card-title {
+        font-size: 17px;
+    }
+}
+.callback-table .search-table td,
+.callback-table .search-table th {
+    // width: auto !important;
+    text-align: left;
+    width: auto !important;
+    text-align: left;
+}
+.callback-table .search-table th {
+    white-space: nowrap;
+    &:last-child {
+        text-align: center;
+    }
+}
+.callback-table .search-table td > .buttons {
+    display: flex !important;
+    --webkit-display: flex;
+    flex-wrap: nowrap !important;
+    float: none;
+}
+.callback-table .search-table .buttons form {
+    display: inherit;
+}
+
+#invoice_report_wrapper .table.search-table th{
+    text-align: center;
+}
+.table.search-table[role="grid"] th{
+    text-align: center;
+}
+@media screen and (max-width: 1400px) , screen and (max-height: 600px){
+    .navbar.d-table h1{
+        font-size: 26px;
+    }
+    .navbar.d-table h1 {
+        transform: rotate(-90deg) translate(-72vh, 0px);
+        left: -47.5vw;
+        margin-bottom: 0px;
+    }
+    .navbar.d-table h1.transform {
+        transform: rotate(-90deg) translate(-25vh, 0px);
+        margin-bottom: 0px;
+    }
+}
+
+// tablet media query
+
+@media (min-width:768px) and (max-width:1024px){
+
+    .btn-large {
+        padding: 8px 30px;
+    }
+    .card-body h1{
+        font-size: 35px;
+    }
+    #EnterCase .modal-dialog, .Sent_To_DMP_Modal .modal-dialog, .Sent_To_DMP_team_Modal .modal-dialog, .Sent_To_IVA_Modal .modal-dialog, .Sent_To_Ip_Modal .modal-dialog, .chnagePassword .modal-dialog, .fix_compliance .modal-dialog, #Sent_To_DMP_Modal .modal-dialog, #Sent_To_DMP_team_Modal .modal-dialog, #Sent_To_IVA_Modal .modal-dialog, #Sent_To_Ip_Modal .modal-dialog, #chnagePassword .modal-dialog, #fix_compliance .modal-dialog, #note_modal .modal-dialog{
+        height: 70vh;
+    min-height: auto !important;
+    top: 35vh;
+    }
+    #income_modal .collapse .btn-large, #income_modal .collapsing .btn-large, #outgoing .collapse .btn-large, #outgoing .collapsing .btn-large {
+        padding: 8px 25px;
+        margin-left: -20px;
+    }
+    .table-header li, .table-body li {
+        width: 20%;
+    }
+    .assets-data .table-header li:nth-child(4), .assets-data .table-body li:nth-child(4) {
+        margin-right: -25px;
+    }
+    .bb-cr {
+        padding-bottom: 20px;
+    }
+    .px-md-30{
+        padding: 0px 30px;
+    }
+    .card .col-6 .card-body h1.line-height-auto.text-center {
+        margin-top: -28px;
+        font-size: 30px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .dmp-advisor .search-table td, .search-table th, .search-table td{
+        padding: 10px 0px;
+    }
+    div.dataTables_wrapper div.dataTables_length label, table.dataTable thead > tr > td.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc{
+        width: auto !important;
+    }
+    .dataTables_wrapper .buttons {
+        display: flex !important;
+        flex-wrap: nowrap;
+    }
+    #entercase .modal-dialog .modal-content, .entercase .modal-dialog .modal-content {
+        width: 75%;
+        max-width: 75%;
+    }
+    #appointment_model .modal-dialog, #calender_modal .modal-dialog, .appointment_model .modal-dialog, .calender_modal .modal-dialog {
+        max-width: 100%;
+        height: 60vh;
+        width: 90% !important;
+    }
+    .result{
+        padding: 0px;
+        text-align: left;
+    }
+    .navbar.d-table h1{
+        transform: rotate(-90deg) translate(-70vh, 20px);
+    }
+    .navbar.d-table h1.transform {
+        transform: rotate(-90deg) translate(-25vh, 20px);
+    }
+    .modal .modal-dialog{
+        width:95% !important;
+        max-width: 95%;
+        height: 100vh;
+        min-height: auto !important;
+    }
+    .alert_modal .modal-content, #alert_modal .modal-content {
+        max-width: 55vw !important;
+    }
+    .debts_modal .debts_data .btn-large, #debts_modal .debts_data .btn-large {
+        padding: 8px 30px;
+    }
+    #income_modal .modal-dialog.modal-dialog-centered.bd-example-modal-sm {
+        max-width: 95%;
+        width: 95% !important;
+    }
+    // .table-header li, .table-body li{
+    //     width: auto;
+    // }
+    .td-p-0 td, .td-p-0 .search-table th, .search-table .td-p-0 th{
+        min-width: 50px;
+    }
+    #logoff_modal .modal-dialog, .logoff_modal .modal-dialog {
+        max-width: 65%;
+    }
+    .weekly-calendar .card {
+        width: calc(100% / 2 - 20px);
+        flex: 0 0 calc(100% / 2 - 20px);
+        max-width: calc(100% / 2 - 20px);
+        margin-bottom: 20px;
+    }
+    .pl-140.mt-3{
+        padding-left: 0px !important;
+    }
+    .admin-dashboard .card.primary-radius{
+        padding: 20px;
+    }
+    .d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center {
+        min-width: 50px;
+    }
+    .profile-title{
+        font-size:35px !important;
+        margin-top: 0px !important;
+    }
+    // 13-03-2020
+    .navbar.d-table h1 {
+        transform: rotate(-90deg) translate(-47vh, 0px);
+    }
+    .navbar.d-table h1.transform {
+        transform: rotate(-90deg) translate(-25vh, 0px);
+    }
+    .footer-link .nav-item .nav-link{
+        font-size: 12px;
+    }
+    .mt--100 {
+        margin-top: -85px;
+    }
+    .mt-tb-35{
+        margin-top: -35px;
+    }
+    .p-tb-12{
+        padding: 0px 15px;
+        padding-left: 15px !important;
+    }
+}
+// tablet landcape 
+@media (min-width:768px) and (max-width:1024px) and (orientation:landscape){
+    .mt--100 {
+        margin-top: -85px;
+    }
+    .mt-tb-35{
+        margin-top: -35px;
+    }
+    .card-title{
+        font-size: 16px;
+    }
+    .dmp-advisor .search-table td, .search-table th, .search-table td{
+        padding: 10px 0px;
+    }
+    div.dataTables_wrapper div.dataTables_length label, table.dataTable thead > tr > td.sorting, table.dataTable thead > tr > td.sorting_asc, table.dataTable thead > tr > td.sorting_desc, table.dataTable thead > tr > th.sorting, table.dataTable thead > tr > th.sorting_asc, table.dataTable thead > tr > th.sorting_desc{
+        width: auto !important;
+    }
+    .dataTables_wrapper .buttons {
+        display: flex !important;
+        flex-wrap: nowrap;
+    }
+    #entercase .modal-dialog .modal-content, .entercase .modal-dialog .modal-content {
+        width: 45%;
+        max-width: 45%;
+    }
+    #appointment_model .modal-dialog, #calender_modal .modal-dialog, .appointment_model .modal-dialog, .calender_modal .modal-dialog {
+        max-width: 100%;
+        height: 80vh;
+        width: 90% !important;
+    }
+    .result{
+        padding: 0px;
+        text-align: left;
+    }
+    .navbar.d-table h1{
+        transform: rotate(-90deg) translate(-58vh, -10px);
+    }
+    .navbar.d-table h1.transform {
+        transform: rotate(-90deg) translate(-30vh, -10px);
+    }
+    .modal .modal-dialog{
+        width:95% !important;
+        max-width: 95%;
+        height: 90vh;
+        min-height: auto !important;
+    }
+    .alert_modal .modal-content, #alert_modal .modal-content {
+        max-width: 45vw !important;
+    }
+    .debts_modal .debts_data .btn-large, #debts_modal .debts_data .btn-large {
+        padding: 8px 30px;
+    }
+    #income_modal .modal-dialog.modal-dialog-centered.bd-example-modal-sm {
+        max-width: 95%;
+        width: 95% !important;
+    }
+    .table-header li, .table-body li{
+        width: auto;
+    }
+    .td-p-0 td, .td-p-0 .search-table th, .search-table .td-p-0 th{
+        min-width: 50px;
+    }
+    #logoff_modal .modal-dialog, .logoff_modal .modal-dialog {
+        max-width: 50%;
+    }
+    .reports-cards .card .card-title {
+        font-size: 16px;
+    }
+    #invoice_report_wrapper .table.search-table th{
+        text-align: center;
+    }
+
+    .dot, .dot.dot-danger, .dot.dot-warning, .dot.dot-success{
+        margin-left: 7px;
+    }
+    .nav-list .item {
+        padding: 0 3px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+    .td-plr-0 td, .td-plr-0 .search-table th, .search-table .td-plr-0 th {
+        vertical-align: middle;
+    }
+    .td-plr-0 td .custom-control-inline, .td-plr-0 .search-table th .custom-control-inline, .search-table .td-plr-0 th .custom-control-inline {
+        min-width: 50px;
+        float: left;
+    }
+    .footer-link .nav-item .nav-link{
+        font-size: 12px;
+    }
+}
+
+
+@media (width:1920px){
+    .width-auto .d-flex.align-items-center.align-content-center.status-update.text-center.br-right.justify-content-center {
+        font-size: 14px;
+        min-width: auto;
+    }
+    .navbar.d-table h1.transform {
+        transform: rotate(-90deg) translate(-25vh, 30px);
+    }
+    .navbar.d-table h1 {
+        transform: rotate(-90deg) translate(-70vh, 30px);
+    }
+    .navbar.d-table h1.transform,
+    .navbar.d-table h1,
+    #countdown2{
+        font-size: 50px;
+    }
+    #entercase .modal-dialog .modal-content, .entercase .modal-dialog .modal-content {
+        padding-bottom: 20px;
+        width: 50%;
+        margin: auto;
+        max-width: 50%;
+    }
+    .counter {
+        font-size: 60px;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        h2 {
+        font-size: 60px;
+        width: 200px;
+        height: 200px;
+        line-height: 200px;
+        font-family: $bebas;
+        }
+    }
+    
+    #entercase .modal-dialog .modal-title, .entercase .modal-dialog .modal-title{
+        font-family: $font_avenir_heavy;
+    }
+    .entercase .modal-dialog .modal-footer,
+    .alert_modal .modal-content .modal-footer{
+        padding: 20px 20px 40px !important;
+    }
+    #logoff_modal .modal-dialog, .logoff_modal .modal-dialog {
+        max-width: 27vw;
+    }
+    #appointment_model .modal-dialog, #calender_modal .modal-dialog, .appointment_model .modal-dialog, .calender_modal .modal-dialog {
+        max-width: 50%;
+        left: 0;
+        height: 55vh;
+        min-height: auto !important;
+    }
+    #alert_modal .modal-content, .alert_modal .modal-content {
+        position: static;
+        max-width: 45% !important;
+        margin: auto !important;
+    }
+    #personal_detail_model,
+    #asset,
+    #outgoing{
+        .modal-dialog{
+            min-height: 100vh !important;
+        }
+    } 
+    #Checklist,
+    #debts_modal{
+        .modal-dialog{
+            min-height: 75vh !important;
+        }
+    }
+    #income_modal,
+    #review,
+    #slot_book,
+    #D_A_quality{
+        .modal-dialog{
+            min-height: 85vh !important;
+        }
+    }
+    .mt--70 {
+        margin-top: -45px;
+    }
+    .main-title h1{
+        font-size: 30px;
+    }
+    #Sent_To_IVA_Modal .modal-dialog, .Sent_To_IVA_Modal .modal-dialog {
+        min-height: 65vh !important;
+    }
+    #solution_popup,
+    #account_popup,
+    #AuditChecklist{
+        .modal-dialog{
+            max-width: 45%;
+        }
+    } 
+    .navbar .navbar-nav .nav-link{
+        padding: 0px;
+    }
+    .navbar .navbar-nav .nav-link img[alt="Dashboard"], .navbar img[alt="Dashboard"]{
+        width: 55px !important;
+    }
+    .case_option{
+        width: 100% !important;
+    }
+}
+@media  (min-width:2200px){
+    .reminder_calender_modal .modal-dialog,
+    #reminder_calender_modal .modal-dialog{
+        height: auto;
+        min-height: 55vh !important;
+    }
+}
+
+#fix_compliance {
+    .modal-dialog {
+        height: auto;
+        min-height: auto !important;
+        top: 35vh;
+        max-width: 350px !important;
+    }
+    .modal-content{
+        min-height: 220px;
+    }
+    .modal-body{
+        flex: 0 0 0;
+    }
+    p{
+        font-size: 16px;
+    }
+    .btn{
+        padding: 8px 20px;
+    }
+}

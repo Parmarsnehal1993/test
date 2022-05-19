@@ -1,0 +1,157 @@
+.debts_design 
+{
+    width:100% !important;
+}
+.case-status-style
+{
+    margin-right: 200px !important;
+}
+#user_list_filter
+{
+    display: none !important;
+}
+.ui-datepicker-calendar
+{
+    color:#fff !important;
+}
+.sorting_disabled:nth-child(1)
+{
+    width: 127px !important;
+}
+.sorting_disabled:nth-child(2)
+{
+    width: 128px !important;
+}
+.sorting_disabled:nth-child(3)
+{
+    width: 127px !important;
+}
+.sorting_disabled:nth-child(4)
+{
+    width: 170px !important;
+}
+
+.sorting_disabled:nth-child(5)
+{
+    width: 246px !important;
+}
+.sorting_disabled:nth-child(6)
+{
+    width: 289px !important;
+}
+.paginate_button .active:first-child
+{
+    width: 48px !important;
+    background: #00548F !important;
+    border-radius: 50% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+#completedCasesList_previous
+{
+    color: #007BFF !important;
+    border: 1px solid #007BFF !important;
+    width: 134px !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+}
+#completedCasesList_next
+{
+    color: #007BFF !important;
+    border: 1px solid #007BFF !important;
+    width: 134px !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+}
+#completedCasesList_previous:hover {
+    background-color: #00548F !important;
+    border-color: #00548F !important;
+    color:#ffffff !important;
+    text-decoration: none;
+}
+#completedCasesList_next:hover {
+    background-color: #00548F;
+    border-color: #00548F;
+    color: #ffffff !important;
+}
+.paginate_button .active:first-child
+{
+    width: 48px !important;
+    background: #00548F !important;
+    border-radius: 50% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+
+/*.dataTables_length
+{
+    display: none !important;
+}*/
+#appointment_list_filter
+{
+    display: none !important;
+}
+/*#completedCasesList_filter
+{
+  display: none;
+}*/
+#appointment_list_info{
+  display: none;
+}
+/* .counter h2{
+    position: relative !important;
+    top: 32px !important;
+} */
+.buttons .btn btn-bordered-primary
+{
+    display:inline !important;
+}
+#callback_list_filter
+{
+  display: none !important;
+}
+#callback_list_previous
+{
+    color: #007BFF !important;
+    border: 1px solid #007BFF !important;
+    width: 134px !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+}
+#callback_list_next
+{
+    color: #007BFF !important;
+    border: 1px solid #007BFF !important;
+    width: 134px !important;
+    height: 40px !important;
+    border-radius: 50px !important;
+}
+#callback_list_previous:hover {
+    background-color: #00548F !important;
+    border-color: #00548F !important;
+    color:#ffffff !important;
+    text-decoration: none;
+}
+#callback_list_next:hover {
+    background-color: #00548F;
+    border-color: #00548F;
+    color: #ffffff !important;
+}
+.paginate_button .active:first-child
+{
+    width: 48px !important;
+    background: #00548F !important;
+    border-radius: 50% !important;
+    margin-left: 10px !important;
+    margin-right: 10px !important;
+}
+.statistics 
+{
+  text-decoration: none !important;
+  
+}
+
+/*#completedCasesList_info{
+  display: none;
+}*/
+/*# sourceMappingURL=Freeze_2.0.css.map */

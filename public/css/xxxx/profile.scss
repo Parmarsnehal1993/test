@@ -1,0 +1,138 @@
+.profile-img {
+    border-radius: 30px;
+    -webkit-border-radius: 30px;
+    -moz-border-radius: 30px;
+    -ms-border-radius: 30px;
+    -o-border-radius: 30px;
+    box-shadow: -1px 6px 11px #0000004d;
+    overflow: hidden;
+    margin-left: 50px;
+}
+.cr-cyan {
+    p,
+    span {
+        margin-bottom: 0;
+        color: #008CCC;
+        font-weight: 600;
+        vertical-align: middle;
+    }
+}
+.profile-title {
+    font-size: 60px;
+    margin-top: -15px;
+}
+.btn-large {
+    padding: 8px 50px;
+    font-size: 13px;
+}
+.table-header {
+    margin-bottom: 10px;
+    border-radius: 50px;
+    -webkit-border-radius: 50px;
+    -moz-border-radius: 50px;
+    -ms-border-radius: 50px;
+    -o-border-radius: 50px;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    font-weight: 600;
+    padding-left: 0;
+    color: darken(#008ccc, 10);
+    font-weight: 500;
+    li {
+        width: 21.68%;
+        text-align: center;
+        a {
+            float: right;
+            margin-right: 5px;
+            margin-left: 5px;
+            &.text-info{
+                float: none;
+                margin: 0px;
+                img{
+                    display: block;
+                    margin: auto;
+                    padding-left: 30px;
+                    max-width: 60px !important;
+                }
+            }
+        }
+        &:first-child {
+            width: auto;
+        }
+        &:last-child {
+            width: auto;
+            margin-right: -20px;
+        }
+    }
+}
+#debts_modal {
+    li {
+        width: auto;
+        text-align: center;
+        &:last-child {
+            margin-right: -20px;
+        }
+    }
+}
+.table-body {
+    @extend .table-header;
+    border: 1.5px solid #008ccc;
+    color: #008ccc;
+    font-weight: 400;
+}
+.table-rounded {
+    tr {
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        border: 1px solid #008dcc;
+    }
+}
+.left-scroll {
+    height: 318px;
+}
+.existing_agent {
+    .table-body li,
+    .table-header li {
+        width: 20%;
+    }
+    .table-header li:last-child {
+        text-align: right;
+        padding-right: 30px;
+    }
+    .table-body li:last-child{
+        padding-right: 20px;
+    }
+}
+#debts_modal li {
+    width: 12.5%;
+    text-align: center;
+    img{
+        max-width: 30px;
+    }
+}   
+#admin_checklist_form{
+    cursor: pointer;
+}
+#view_user_debt_from_list_div .table-header,
+#view_user_debt_from_list_div .table-body{
+    justify-content: flex-start;
+}
+#view_user_debt_from_list_div .table-body li{
+    padding: 10px 0px;
+}
+#view_user_debt_from_list_div .table-header li:first-child,
+#view_user_debt_from_list_div .table-header li:last-child,
+#view_user_debt_from_list_div .table-header li,
+#view_user_debt_from_list_div .table-body li:first-child,
+#view_user_debt_from_list_div .table-body li:last-child,
+#view_user_debt_from_list_div .table-body li{
+    width: calc(100% / 6);
+    margin: 0px;
+    margin-right: 0px;
+     // white-space: nowrap;
+}

@@ -1,0 +1,57 @@
+.dmp-advisor .search-table td, .search-table th,
+.search-table td, .search-table th{
+    padding: 15px 20px;
+    width: 0px !important;
+    // width: 100%;
+    // white-space: nowrap;
+    // text-align: center;
+}
+.dmp-advisor .search-table td{
+    &:last-child{
+        padding-right: 0px;
+    }
+}
+#timer_modal{
+    .modal-content{
+        border:none !important;
+    }
+    .modal-header{
+        border:none;
+        justify-content: flex-start;
+    }
+    .modal-body{
+        border: none;
+        justify-content: center;
+    }
+    .modal-dialog{
+        border:1.5px solid $danger_color;
+        max-width: 800px;
+        margin: auto;
+        transform: translate(0%,-50%) !important;
+    }
+}
+.dmp-advisor .buttons{
+    display: block !important;
+    .btn{
+        min-width: 112px;
+        margin: 2px;
+        float: left;
+    }
+}
+.dataTables_wrapper{
+        .buttons{
+            float: right;
+        }
+        .btn:nth-child(5){
+            clear: both;
+        }
+}
+
+.entercase{
+    .buttons{
+        display: flex !important;
+        .btn{
+            padding: 10px 60px;
+        }
+    }
+}

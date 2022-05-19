@@ -1,0 +1,87 @@
+.fr-6 {
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+    display: grid;
+}
+body{
+    font-family: DejaVu Sans;
+    color: #0A1952;
+}
+.main-header{
+    padding: 15px;
+    background: #0A1952;
+    width: 100%;
+    color: #fff;
+    text-align: right;
+    font-size: 24px;
+    font-weight: 600;
+    padding-right: 40px;
+}
+.page-container{
+    /* max-width: 1080px; */
+    margin: auto;
+    margin-right: 0px;
+    margin-top: 50px;
+}
+
+.page-heading{
+    padding: 10px;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 600;
+    background-color:#14A3BC
+}
+section h1{
+    margin: 20px 0px !important;
+    color: #0A1952;
+    font-weight: 600;
+}
+.form-group{
+    position: relative;
+    margin-bottom: 20px;
+}
+.form-group label{
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    font-size: 18px;
+    margin: 0px;
+    bottom: 0px;
+    line-height: 2.4;
+    padding-left: 10px;
+    width: max-content;
+    min-width: 220px;
+}
+.form-control {
+    padding: 10px;
+    border-radius: 0px;
+    background-color: #eee !important;
+    border: none;
+    padding-left: 210px;
+    font-size: 18px;
+    line-height: 0.5;
+    color: #0A1952;
+    font-weight: 600;
+}
+.form-inline-group label{
+    position: static;
+    padding: 0px;
+}
+.form-inline-group .form-group{
+    display: flex;
+    justify-content: space-between;
+}
+.form-inline-group .form-control{
+    width: 150px;
+    padding-left: 10px;
+}
+.fr-6{
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+.fr-6 .d-flex{
+    justify-content: center;
+    padding: 10px;
+    border-right: 1px solid #14a3bc4d;
+}
+.fr-6 .d-flex:last-child{
+    border-right: 1px solid transparent;
+}

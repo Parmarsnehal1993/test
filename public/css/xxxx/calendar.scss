@@ -1,0 +1,129 @@
+.gj-picker-bootstrap table tr td div,
+.gj-picker-bootstrap table tr th div {
+    display: block;
+    width: 30px;
+    height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color: #e3e3e3;
+}
+.gj-picker-bootstrap table tr td.focused div,
+.gj-picker-bootstrap table tr td.gj-cursor-pointer div:hover,
+.gj-picker-bootstrap table tr td.selected.gj-cursor-pointer div {
+    background: #B9B9B9;
+    border-radius: 50%;
+    color: #fff;
+}
+.gj-picker-bootstrap table tr td.today div {
+    color: #fff;
+    font-weight: 700;
+}
+.gj-picker-bootstrap div[role=navigator] {
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.gj-picker-bootstrap table tr td div,
+.gj-picker-bootstrap table tr th div {
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 28px;
+}
+.gj-picker {
+    position: absolute;
+    z-index: 1203;
+    background-color: #737373;
+    border-radius: 20px !important;
+    padding: 20px 30px !important;
+    color: #fff;
+}
+.ui-widget.ui-widget-content {
+    border: 1px solid #c5c5c5;
+    position: absolute;
+    z-index: 1203;
+    background-color: #737373;
+    border-radius: 20px !important;
+    padding: 20px 30px !important;
+    color: #fff;
+    // display: block !important;
+}
+.ui-datepicker table {
+    width: 100%;
+    font-size: 0.9em;
+    border-collapse: collapse;
+    margin: 0;
+    max-width: 100%;
+    margin-left: -10px;
+}
+.ui-datepicker td {
+    border: 0;
+    padding: 1px;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+}
+.ui-button,
+.ui-state-default,
+.ui-widget-content .ui-state-default,
+.ui-widget-header .ui-state-default,
+html .ui-button.ui-state-disabled:active,
+html .ui-button.ui-state-disabled:hover {
+    /* border: 1px solid #c5c5c5; */
+    border: none;
+    background: none;
+    font-weight: normal;
+    color: #e3e3e3;
+    border-radius: 50%;
+    font-size: 12px;
+    line-height: 28px;
+    text-align: center;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    padding: 0;
+}
+.ui-button:focus,
+.ui-button:hover,
+.ui-state-focus,
+.ui-state-hover,
+.ui-widget-content .ui-state-focus,
+.ui-widget-content .ui-widget-content .ui-state-hover,
+.ui-widget-header .ui-state-focus,
+.ui-widget-header .ui-widget-header .ui-state-hover {
+    border: 1px solid #B9B9B9;
+    background: #B9B9B9;
+    color: #fff;
+}
+.ui-datepicker .ui-datepicker-header {
+    position: relative;
+    padding: 0.2em 0;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+    padding: 0;
+    background: transparent;
+    border: none;
+    color: #fff;
+    margin: 0;
+    font-weight: 500;
+    width: 100%;
+    text-align: center;
+    font-size: 15px;
+}
+.ui-button.ui-state-active:hover,
+.ui-widget-content .ui-state-active,
+.ui-widget-header .ui-state-active,
+a.ui-button:active {
+    border: 1px solid #B9B9B9;
+    background: #B9B9B9;
+    color: #fff;
+}
+.ui-datepicker th{
+    padding: .7em .3em;
+}
+.ui-datepicker{
+    width: auto;
+}

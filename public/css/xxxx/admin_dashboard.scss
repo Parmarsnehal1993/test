@@ -1,0 +1,96 @@
+.admin-dashboard {
+    .card {
+        border-radius: 100px;
+        padding: 0 20px;
+        &.primary-radius {
+            border-radius: 30px;
+            padding: 40px 60px;
+            min-height: 109vh;
+            .text-primary {
+                color: #004e8a!important;
+            }
+            td {
+                padding: 10px 0 !important;
+                width: 50%;
+            }
+        }
+    }
+    .card-section {
+        .col-xl-6 {
+            .card {
+                min-height: 70px !important;
+                justify-content: center;
+                margin-bottom: 15px;
+            }
+        }
+    }
+    // .card-title {
+    //     font-size: 20px;
+    //     h1{
+    //         font-size: 38px;
+    //     }
+    // }
+    .ct-space {
+        width: 40%;
+    }
+}
+.reports-cards {
+    padding-right: 15px;
+    .card {
+        .card-title {
+            font-size: 25px;
+            line-height: 1.3;
+        }
+        h6 {
+            color: #008dcc;
+            font-weight: bold;
+        }
+    }
+}
+.card {
+    .col-6 {
+        .card-body {
+            h1.line-height-auto.text-center {
+                margin-bottom: 0;
+                text-align: left !important;
+                margin-top: -35px;
+            }
+
+        }
+    }
+
+}
+// .col-xl-8 {
+//     .card.height-auto {
+//         .plus-sign {
+//             right: 10px;
+//         }
+//     }
+// }
+.card-section {
+    .ml--30 {
+        > .col-xl-8 {
+            .card-title {
+                margin-bottom: 0;
+            }
+        }
+    }
+}
+div.dataTables_wrapper div.dataTables_length label,
+table.dataTable thead > tr > td.sorting,
+table.dataTable thead > tr > td.sorting_asc,
+table.dataTable thead > tr > td.sorting_desc,
+table.dataTable thead > tr > th.sorting,
+table.dataTable thead > tr > th.sorting_asc,
+table.dataTable thead > tr > th.sorting_desc {
+    font-size: 18px;
+    font-family: $font_avenir_heavy;
+    color: #004e8a;
+    padding: 15px 10px;
+}
+.min-height-420{
+    min-height: 308px;
+}
+.min-height-460{
+    min-height: 460px;
+}

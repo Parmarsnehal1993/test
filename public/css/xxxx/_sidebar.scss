@@ -1,0 +1,121 @@
+.navbar {
+    // @include flex_column;
+    font-family: $font_avenir_light;
+    &.fixed-left {
+        position: fixed;
+        top: 0;
+        bottom: 0;
+        width: 80px;
+        padding-right: 20px;
+        left: 0;
+        padding: 0;
+        background: url("../images/Side_Bar_Out@2x.png") center right no-repeat;
+        background-size: cover;
+
+    }
+    &.d-table{
+        height: 100%;
+        h1{
+            width: 100%;
+            position: fixed;
+            transform: rotate(-90deg) translate(-70vh, 10px);
+            left: -48.5%;
+            color: #fff;
+            text-align: center;
+        }
+        h1.transform{
+            transform: rotate(-90deg) translate(-25vh, 10px);
+        }
+        .transform-center{
+            transform: rotate(-90deg) translate(-50vh, 10px);
+        }
+    }
+    .navbar-nav {
+        .nav-link {
+            padding-left: 0px;
+            margin: 5px 0;
+            color: #fff;
+            &.profile {
+                padding-bottom: 10px;
+                border-bottom: 1.5px solid #fff;
+            }
+            img {
+                width: 30px;
+            }
+        }
+    }
+}
+.expend-sidebar-link {
+    position: fixed;
+    bottom: 0;
+}
+.side_menu_expend {
+    left: -300px !important;
+    position: relative;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    z-index: 99;
+    &.open-menu {
+        left: 0 !important;
+        width: 250px;
+        padding-left: 20px;
+    }
+    .btn {
+        padding: 8px 45px !important;
+        color: #fff;
+    }
+    .nav-link {
+        font-size: 14px;
+    }
+    .expend-sidebar-link {
+        position: relative;
+        margin-top: 00px;
+        &.logout{
+            position: fixed;
+        }
+    }
+}
+.sidebar_open {
+    .main-content {
+        // filter: blur(4px);
+        // -webkit-filter: blur(4px);
+        transition: all 0.3s ease-in-out;
+        -webkit-transition: all 0.3s ease-in-out;
+        -moz-transition: all 0.3s ease-in-out;
+        -ms-transition: all 0.3s ease-in-out;
+        -o-transition: all 0.3s ease-in-out;
+    }
+}
+.user-greeting {
+    margin-top: 0px;
+    display: flex;
+    flex-wrap: wrap;
+    h2 {
+        font-size: 20px;
+        color: #fff;
+        margin: 0;
+    }
+    h1 {
+        font-size: 40px;
+        color: #fff;
+        margin: 0;
+    }
+}
+.sidebar_open {
+    #sidenav-overlay {
+        position: fixed;
+        bottom: 0;
+        top: 0;
+        width: 100vw;
+        height: 100vh;
+        display: block;
+        left: 160px;
+        background: #ffffffa6;
+    }
+}
+.card-section{
+    width: 100%;
+}

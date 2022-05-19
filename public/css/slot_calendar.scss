@@ -1,0 +1,180 @@
+.day-appointment {
+    .ap-list li {
+        display: flex;
+        width: 100%;
+        justify-content: flex-start;
+        flex-direction: row;
+        flex-wrap: wrap;
+        border-bottom: 1.5px solid #00548F;
+        color: #00b0ff;
+        font-family: $font_avenir_heavy;
+        .time,
+        div {
+            padding: 5px;
+            width: 65%;
+            &:not(.time) {
+                text-align: center;
+                line-height: initial;
+            }
+        }
+        .time {
+            width: 35%;
+            padding: 22px 10px;
+        }
+        span {
+            display: block;
+            color: #fff;
+            font-size: 16px;
+            font-family: $font_avenir_heavy;
+            &.appoiment_name {
+                margin-top: 8px;
+            }
+        }
+        .is_active {
+            background-color: #67bbe0;
+        }
+    }
+}
+.case-sent-section {
+    color: #00b0ff;
+    h1 {
+        font-size: 60px;
+        margin-bottom: 0;
+    }
+}
+// weekly calendar
+
+.weekly-calendar {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    .card {
+        width: calc(100% / 5 - 20px);
+        flex: 0 0 calc(100% / 5 - 20px);
+        max-width: calc(100% / 5 - 20px);
+        margin: 0 10px;
+        text-align: center;
+        padding: 30px 15px;
+        .card-title {
+            color: #004e8a;
+            font-family: $font_avenir_heavy;
+        }
+        &:not(:first-child) {
+            background-color: #f7f7f7;
+        }
+        li {
+            padding: 20px 0;
+            border-bottom: 1.5px solid #c3c3c3;
+            cursor: pointer;
+            &:hover {
+                background-color: #e4f3fa;
+            }
+        }
+        .slot-time {
+            font-size: 20px;
+            color: #00b0ff;
+        }
+        .slot-name {
+            font-size: 16px;
+            font-family: $font_avenir_heavy;
+        }
+    }
+}
+.Quick-view {
+    .custom-control-inline {
+        min-width: auto !important;
+        margin-left: 10px;
+    }
+    .search-table td,
+    .search-table th {
+        border-bottom: 1.99px solid #c3c3c3 !important;
+    }
+    .search-table tr:last-child td {
+        border-bottom: none !important;
+    }
+    &.modal .modal-dialog {
+        height: 85vh;
+        min-height: 85vh !important;
+    }
+}
+.slot_book {
+    font-family: $font_avenir_heavy;
+    &.modal.fade .modal-dialog{
+        width: 85%;
+        min-width: 85%;
+    }
+    .slot-book-table {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+        .slot-header {
+            border-bottom: 1.5px solid #707070;
+            justify-content: center;
+            &:first-child {
+                border-right: 1.5px solid #707070;
+            }
+        }
+        .slot-body {
+            justify-content: center;
+            &:first-child {
+                border-right: 1.5px solid #707070;
+            }
+        }
+
+    }
+    .d-flex {
+        padding: 10px;
+    }
+    .slot-btn {
+        text-transform: capitalize;
+        width: 100%;
+        border-radius: 4px;
+        padding: 5px;
+        height: auto;
+        line-height: initial;
+        min-height: 42px;
+        box-shadow: 0 2px 5px #66666669;
+        font-family: $font_avenir_heavy;
+        &.available {
+            border-color: #0090c9;
+            color: #0090c9;
+            &:active,
+            &:focus,
+            &:hover {
+                outline: 0;
+                border-color: darken(#0090c9, 2);
+                color: darken(#0090c9, 2);
+                box-shadow: 0 2px 5px #66666669 !important;
+            }
+
+        }
+        &.unavailable {
+            border-color: #ed3b31;
+            color: #ed3b31;
+            &:active,
+            &:focus,
+            &:hover {
+                outline: 0;
+                border-color: darken(#ed3b31, 2);
+                color: darken(#ed3b31, 2) !important;
+                box-shadow: 0 2px 5px #66666669 !important;
+            }
+        }
+    }
+    .dropdown-menu {
+        border-radius: 10px;
+        left: -25px !important;
+        box-shadow: 0 1px 4px #828282ab;
+    }
+    .dropdown-item {
+        cursor: pointer;
+        text-align: center;
+        color: #008dcc;
+    }
+    .dropdown-item:focus,
+    .dropdown-item:hover {
+        color: darken(#008dcc,2);
+        text-decoration: none;
+        background-color: #f7f7f7;
+    }
+
+}
